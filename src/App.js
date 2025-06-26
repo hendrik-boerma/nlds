@@ -1,15 +1,23 @@
-import Test from './Test';
+import logo from './logo.svg';
 import './App.css';
-import "@utrecht/component-library-css/dist/index.css";
-import '@utrecht/design-tokens/dist/index.css';
-import '@nl-design-system-unstable/groningen-design-tokens/dist/design-tokens.css';
-import React from 'react';
 
 function App() {
-
   return (
-    <div className="groningen-theme utrecht-theme">
-      <Test />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
