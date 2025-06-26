@@ -1,4 +1,4 @@
-import Test from './Test';
+import NLDSComponenten from './Componenten';
 import './App.css';
 import "@utrecht/component-library-css/dist/index.css";
 import '@utrecht/design-tokens/dist/index.css';
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="groningen-theme utrecht-theme">
-      <Test />
+      <NLDSComponenten />
     </div>
   );
 }

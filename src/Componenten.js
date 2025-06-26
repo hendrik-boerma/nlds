@@ -2,7 +2,7 @@ import { UtrechtButtonLink, UtrechtHeading1, UtrechtHeading2, UtrechtAlert, Utre
 import { Accordion, AccordionSection } from "@utrecht/component-library-react"
 import { useState } from "react";
 
-function Test(){
+function NLDSComponenten(){
 
     const [toggle, setToggle] = useState(false)
 
@@ -26,4 +26,4 @@ function Test(){
     );
 }
 
-export default Test
+export default NLDSComponenten
