@@ -5,6 +5,7 @@ import { useState } from "react";
 function NLDSComponenten(){
 
     const [toggle, setToggle] = useState(false)
+    let titelattribuut = 'andere titel voor wcag'
 
     return (
         <main>
@@ -18,8 +19,8 @@ function NLDSComponenten(){
         </AccordionSection>
         </Accordion>
         <UtrechtButtonGroup>
-            <UtrechtButtonLink type='submit' appearance='primary-action-button' href="http://localhost:3000/buttontest">Primary button</UtrechtButtonLink>
-            <UtrechtButtonLink type='submit' appearance='secondary-action-button' href="http://localhost:3000/buttontest">Secondary button</UtrechtButtonLink>
+            <UtrechtButtonLink title={titelattribuut} appearance='primary-action-button' href="http://localhost:3000/buttontest">Primary button</UtrechtButtonLink>
+            <UtrechtButtonLink appearance='secondary-action-button' href="http://localhost:3000/buttontest">Secondary button</UtrechtButtonLink>
         </UtrechtButtonGroup>
 
     </main>
